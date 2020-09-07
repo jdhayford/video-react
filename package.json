@@ -1,6 +1,6 @@
 {
   "name": "video-react",
-  "version": "0.14.1",
+  "version": "0.14.2",
   "description": "Video-React is a web video player built from the ground up for an HTML5 world using React library.",
   "main": "lib/index.js",
   "style": "dist/video-react.css",
@@ -34,7 +34,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/video-react/video-react.git"
+    "url": "git+https://github.com/jdhayford/video-react.git"
   },
   "files": [
     "LICENSE",
@@ -70,9 +70,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/video-react/video-react/issues"
+    "url": "https://github.com/jdhayford/video-react/issues"
   },
-  "homepage": "https://github.com/video-react/video-react#readme",
+  "homepage": "https://github.com/jdhayford/video-react#readme",
   "tonicExampleFilename": "tonic-example.js",
   "dependencies": {
     "@babel/runtime": "^7.4.5",

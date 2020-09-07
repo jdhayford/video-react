@@ -86,8 +86,10 @@ export default class SeekBar extends Component {
   render() {
     const {
       player: { currentTime, seekingTime, duration, buffered },
-      mouseTime
+      mouseTime,
+      progressRef
     } = this.props;
+
     const time = seekingTime || currentTime;
 
     return (
@@ -115,7 +117,11 @@ export default class SeekBar extends Component {
           duration={duration}
         />
         <MouseTimeDisplay duration={duration} mouseTime={mouseTime} />
-        <PlayProgressBar currentTime={time} duration={duration} />
+        <PlayProgressBar
+          currentTime={time}
+          duration={duration}
+          progressRef={progressRef}
+        />
       </Slider>
     );
   }

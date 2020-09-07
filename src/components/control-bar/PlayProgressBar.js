@@ -16,7 +16,8 @@ export default function PlayProgressBar({
   currentTime,
   duration,
   percentage,
-  className
+  className,
+  progressRef
 }) {
   return (
     <div
@@ -28,6 +29,7 @@ export default function PlayProgressBar({
       style={{
         width: percentage
       }}
+      ref={progressRef}
     >
       <span className="video-react-control-text">
         {`Progress: ${percentage}`}
